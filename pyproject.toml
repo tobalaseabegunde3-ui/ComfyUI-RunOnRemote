@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-runonremote"
+description = "Send a workflow to another ComfyUI machine, run it there, and get the finished image back in your own Job Queue."
+version = "1.0.0"
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/tobalaseabegunde3-ui/ComfyUI-RunOnRemote"
+
+[tool.comfy]
+PublisherId = "YOUR-PUBLISHER-ID"
+DisplayName = "Run on Remote ComfyUI"
+Icon = ""
